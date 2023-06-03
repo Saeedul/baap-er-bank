@@ -12,7 +12,7 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     const password = passwordField.value;
     // DANGER: DO NOT VERIFY email, password on the client side
     // step: 4 Verify email and password and check whether valid user or not
-    if (email === 'sontan@baap.com' && password === 'secret') {
+    if (email === 'sontaan@baap.com' && password === 'secret') {
         window.location.href = 'bank.html'
     }
     else {
